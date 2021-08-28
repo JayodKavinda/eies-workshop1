@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace WebApplication2.Model
 {
-    public class UserLoginModel
+    public class CustomerLoginModel
     {
         [Required]
         public String Email { get; set; }

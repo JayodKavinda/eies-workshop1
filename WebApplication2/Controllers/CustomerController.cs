@@ -49,7 +49,7 @@ namespace WebApplication2.Controllers
         }
 
         [HttpPost("login")]
-        public async Task<ActionResult> Login(UserLoginModel model)
+        public async Task<ActionResult> Login(CustomerLoginModel model)
         {
             var user = await UserManager.FindByEmailAsync(model.Email);
 
